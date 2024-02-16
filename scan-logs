@@ -1,0 +1,8 @@
+{"level":"info","version":"1.8.5","commit":"2d7db6f","time":"2024-02-15T23:57:46Z","message":"Starting analysis with Sysdig scanner"}
+{"level":"info","time":"2024-02-15T23:57:46Z","message":"Using path for the cache: /home/cloudshell-user/.cache/inlineScannerCache.db"}
+{"level":"info","time":"2024-02-15T23:57:46Z","message":"Using default vulnerability db version: V2"}
+{"level":"info","time":"2024-02-15T23:57:46Z","message":"Retrieving MainDB"}
+{"level":"warn","error":"stat /home/cloudshell-user/example-voting-app/main.db.meta.json: no such file or directory","time":"2024-02-15T23:57:46Z","message":"error, overwrite current MainDB"}
+{"level":"info","time":"2024-02-15T23:57:46Z","message":"Downloading a new MainDB to /home/cloudshell-user/example-voting-app/main.db/sysdig-db-data"}
+{"level":"info","expectedStatusCode":200,"receivedStatusCode":401,"responseBodyString":"cannot verify credentials\n","time":"2024-02-15T23:57:46Z","message":"response body as string"}
+{"level":"error","error":"Unable to retrieve MainDB: cannot get presigned URL: invalid response status when getting the DB presigned URL: 401 Unauthorized","time":"2024-02-15T23:57:46Z","message":"Exiting now"}
